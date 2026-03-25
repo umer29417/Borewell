@@ -127,7 +127,7 @@ const Services = () => {
         <div className="mt-14 grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
           <div className="BestBorewell bg-gradient-to-r from-sky-400 via-blue-500 to-indigo-600 rounded-xl shadow-md p-8 text-center opacity-0 hover:shadow-xl transition">
             <img
-              src="src/images/04.svg"
+              src={img2}
               alt="Borewell Contractors"
               className="w-40 h-40 mx-auto rounded-full object-cover"
             />
