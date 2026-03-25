@@ -129,13 +129,28 @@ const Hero = () => {
 
   return (
     <div className="w-full h-screen overflow-hidden relative bg-black z-10">
+      {/* ✅ SEO CONTENT (visible to Google) */}
+      <div className="absolute top-10 left-1/2 -translate-x-1/2 text-center z-20 text-white px-4">
+        <h1 className="text-2xl md:text-4xl font-bold">
+          Borewell Services in Karnataka
+        </h1>
+
+        <p className="mt-3 text-sm md:text-lg max-w-xl mx-auto">
+          We provide professional borewell drilling services in Karnataka
+          including Bangalore, Mysore, and nearby areas. Reliable, fast, and
+          affordable solutions.
+        </p>
+      </div>
+
+      {/* EXISTING IMAGE */}
       <img
         className="h-10/9 absolute top-2/3 left-1/2 -translate-x-1/2 -translate-y-1/2 mix-blend-lighten pointer-events-none z-10"
         style={{ filter: "saturate(2.2) contrast(1.5)" }}
         src="jlrd.png"
-        alt="logo"
+        alt="Borewell services Karnataka"
       />
 
+      {/* BUTTON */}
       <div className="absolute bottom-10 w-full flex justify-center z-50">
         <button
           onClick={() => navigate("/home")}
@@ -145,6 +160,7 @@ const Hero = () => {
         </button>
       </div>
 
+      {/* CANVAS */}
       <canvas
         ref={canvasRef}
         className="absolute top-0 left-0 w-full h-full block z-0 pointer-events-none"
