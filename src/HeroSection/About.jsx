@@ -1,4 +1,5 @@
 import "remixicon/fonts/remixicon.css";
+import video from "../images/08.mp4";
 
 const About = () => {
   return (
@@ -69,7 +70,7 @@ const About = () => {
               muted
               loop
             >
-              <source src="src/images/08.mp4" />
+              <source src={video} />
             </video>
           </div>
         </div>
