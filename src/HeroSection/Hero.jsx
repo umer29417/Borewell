@@ -38,7 +38,6 @@ const Hero = () => {
       alpha: true,
     });
 
-    // ✅ FIX 1: allow transparency
     renderer.setClearColor(0x000000, 0);
 
     renderer.domElement.style.pointerEvents = "none";

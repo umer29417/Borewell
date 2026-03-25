@@ -1,6 +1,9 @@
 import { useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import img2 from "../images/02.svg";
+import img3 from "../images/03.svg";
+import img4 from "../images/04.svg";
 
 gsap.registerPlugin(ScrollTrigger);
 const Services = () => {
@@ -79,7 +82,7 @@ const Services = () => {
                 </div>
                 <div className="mt-14 grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
                     <div className="BestBorewell bg-gradient-to-r from-sky-400 via-blue-500 to-indigo-600 rounded-xl shadow-md p-8 text-center opacity-0 hover:shadow-xl transition">
-                        <img src="src/images/02.svg" alt="Borewell Contractors" className="w-40 h-40 mx-auto rounded-full object-cover" />
+                        <img src="img2" alt="Borewell Contractors" className="w-40 h-40 mx-auto rounded-full object-cover" />
                         <h3 className="mt-6 text-lg font-semibold">
                             Best Borewell Contractors in Davangere
                         </h3>
@@ -90,7 +93,7 @@ const Services = () => {
                         </p>
                     </div>
                     <div className="BestBorewell bg-gradient-to-r from-red-400 via-yellow-400 to-blue-500 opacity-0 rounded-xl shadow-md p-8 text-center hover:shadow-xl transition">
-                        <img src="src/images/04.svg" alt="Deep Borewell" className="w-40 h-40 mx-auto rounded-full object-cover" />
+                        <img src="img4" alt="Deep Borewell" className="w-40 h-40 mx-auto rounded-full object-cover" />
                         <h3 className="mt-6 text-lg font-semibold">
                             Advanced Deep Borewell Drilling for Your Water Needs
                         </h3>
@@ -101,7 +104,7 @@ const Services = () => {
                         </p>
                     </div>
                     <div className="BestBorewell opacity-0 bg-gradient-to-r from-fuchsia-500 via-purple-500 to-indigo-500 rounded-xl shadow-md p-8 text-center hover:shadow-xl transition">
-                        <img src="src/images/03.svg" alt="Motor Installation" className="w-40 h-40 mx-auto rounded-full object-cover" />
+                        <img src="img3" alt="Motor Installation" className="w-40 h-40 mx-auto rounded-full object-cover" />
                         <h3 className="mt-6 text-lg font-semibold">
                             Expert Borewell Motor Installation & Maintenance
                         </h3>
