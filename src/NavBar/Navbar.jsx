@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, Routes, Route } from "react-router-dom";
 import "remixicon/fonts/remixicon.css";
+import logo from "../images/logo.png";
 
 import BillGen from "../HeroSection/BillGen";
 import Home from "../HeroSection/Home";
@@ -18,11 +19,7 @@ export default function Navbar() {
       <div className="w-full bg-gray-400 shadow-md">
         <div className="max-w-[1200px] mx-auto flex items-center justify-between px-6 py-4">
           <div className="flex items-center gap-3">
-            <img
-              src="src/images/logo.png"
-              alt="Logo"
-              className="h-12 w-auto rounded-full"
-            />
+            <img src={logo} alt="Logo" className="h-12 w-auto rounded-full" />
             <h2 className="text-lg md:text-xl uppercase font-bold text-blue-700">
               Sri JayaLakshmi Rock Drillers
             </h2>
